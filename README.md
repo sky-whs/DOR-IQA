@@ -12,7 +12,7 @@ Due to the rapid development of deep learning techniques, no-reference image qua
 
 1. Place `get_lossfunc.py` and `losses.py` in the same folder as `train.py`.
 
-2. In your model file `DOR-IQA.py`, add the following functions:
+2. Add the three functions from `DOR-IQA.py` into your model's code:
     - `soft_ordinal_regression`
     - `decode_ord`
     - `inference`
@@ -29,3 +29,5 @@ def train_epoch():
     pred_score = DOR_model(image)
     loss = criterion(pred_score, labels)  # The loss function requires predictions to be a probability distribution
     continuous_score = model.inference(pred_score)  # Use the inference function to get the desired score by ordinal regression
+
+4. Ensure the above files and functions are correctly integrated to achieve effective NR-IQA using the proposed deep ordinal regression framework.
