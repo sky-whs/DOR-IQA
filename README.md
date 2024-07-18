@@ -33,4 +33,19 @@ def train_epoch():
 
 4. Ensure the above files and functions are correctly integrated to achieve effective NR-IQA using the proposed deep ordinal regression framework.
 
+## **Citation**
+```sh
+@ARTICLE{10539107,
+  author={Wang, Huasheng and Liu, Jiang and Tan, Hongchen and Lou, Jianxun and Liu, Xiaochang and Zhou, Wei and Liu, Hantao},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Blind Image Quality Assessment via Adaptive Graph Attention}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Transformers;Image quality;Feature extraction;Adaptation models;Predictive models;Deep learning;Task analysis;Image quality assessment;no-reference;graph;convolutional neural networks;deep learning},
+  doi={10.1109/TCSVT.2024.3405789}}
+```
+```
+
 
